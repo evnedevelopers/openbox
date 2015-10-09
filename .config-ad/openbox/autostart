@@ -1,0 +1,7 @@
+feh --bg-fill '~/Pictures/wallhaven-220074.jpg' --bg-fill '~/Pictures/wallhaven-220079.jpg' & 
+unity-settings-daemon & xscreensaver-command -exit & 
+xscreensaver -no-splash & 
+(sleep 1s && compton --config ~/.compton.conf -b) & 
+(sleep 0.7s && tint2 -c ~/.config/tint2/tiny/tint2rc) &
+(sleep 0.5s && volumeicon) &
+(sleep 0.1s && conky -c ~/Dropbox/sys/conky-work.conf)
