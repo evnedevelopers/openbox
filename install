@@ -1,0 +1,5 @@
+#!/bin/bash
+
+CONFIG="${1:-AD}"
+
+echo "Copy config-$CONFIG..."
