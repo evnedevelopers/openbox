@@ -1,4 +1,4 @@
-feh --bg-fill '/home/jastinog/Pictures/Background.png' &
+feh --bg-fill '~/Pictures/Background.png' &
 unity-settings-daemon & xscreensaver -nosplash &
 (sleep 0.5s && compton ) &
 (sleep 1.0s && conky ) &
