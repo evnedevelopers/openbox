@@ -1,0 +1,31 @@
+{
+	"color_scheme": "Packages/Material Theme/schemes/Material-Theme-Darker.tmTheme",
+	"Seti_no_bar_undertabs": true,
+	"Seti_tabs_small": true,
+	"Seti_ClosedFolder_same": true,
+	"Seti_ClosedFolder_remove": true,
+	"Seti_sb_small_padding": true,
+	"Seti_sb_tree_small": true,
+	"Seti_ClosedFolder_dots": true,
+	"Seti_blue_tab_label": true,
+	"Seti_orange_button": true,
+	"Seti_rainbow": true,
+	"Seti_in_4_a_treat": true,
+	"font_options":
+	[
+		"gray_antialias"
+	],
+	"font_size": 8,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"line_padding_bottom": 1,
+	"line_padding_top": 1,
+	"material_theme_small_statusbar": true,
+	"material_theme_small_tab": true,
+	"overlay_scroll_bars": "enabled",
+	"theme": "Seti_orig.sublime-theme",
+	"translate_tabs_to_spaces": false,
+	"word_wrap": "false"
+}
