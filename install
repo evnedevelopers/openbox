@@ -2,4 +2,11 @@
 
 CONFIG="${1:-AD}"
 
+PATH_FROM="./config-$CONFIG/"
+PATH_TO="./config-test/"
+
 echo "Copy config-$CONFIG..."
+
+[[ -d dir ]] || mkdir dir
+echo "$PATH_FROM to $PATH_TO"
+cp -r $PATH_FROM $PATH_TO
